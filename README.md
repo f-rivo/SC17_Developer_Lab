@@ -1,6 +1,6 @@
 <table style="width:100%">
   <tr>
-    <th width="100%" colspan="5">SC17 Xilinx Developer Lab</th>
+    <th width="100%" colspan="5"><h4>SC17 Xilinx Developer Lab</h4></th>
   </tr>
   <tr>
     <td width="20%"><a href="README.md">Introduction</a></td>
