@@ -53,7 +53,7 @@ fpga-load-local-image -S 0 -I agfi-0015437e933b3e725
 The encoder will finish with a message similar to this one: \
 *frame=500 **fps=52** q=-0.0 LPSNR=Y:inf U:inf V:inf \*:inf **size=17580kB** time=00:00:20.00 bitrate=7200.9kbits/s **speed=2.08x*** 
 
-* The table below summarize the performance of both the encoders:
+* The table below summarizes the performance of both the encoders:
 
 |                           | HEVC encoding on CPU | HEVC encoding on F1  |
 | :------------------------ |-------------:| -------:|
