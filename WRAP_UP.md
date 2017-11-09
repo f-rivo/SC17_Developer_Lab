@@ -20,7 +20,7 @@ It is now time to wrap-up this lab. Please follow these steps to close your RDP 
 
 ### Stopping your instance
 
-* Click the 'X' icon in your RDP client window.
+* Click the 'X' icon to close your RDP client.
 * On your local machine, return to your browser and to the tab showing the **EC2 Console** and the details of your running instance.
    * If necessary, use the link which was emailed to you to return to the proper web page.
 * In the **EC2 Console**, click the **Actions** button, then select **Instance State** and then **Stop**.
