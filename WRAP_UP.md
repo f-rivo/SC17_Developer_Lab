@@ -15,9 +15,9 @@
 
 ## Wrap-Up and Next Steps
 
-You have successfully completed the SC17 Xilinx Developer Lab. Congratulations!
+It is now time the wrap-up this lab. Please now follow these steps to close your RDP session and stop your instance.
 
-Please now follow these steps to close your RDP session and stop your instance.
+### Stopping your instance
 
 * Click the 'X' icon in your RDP client window.
 
@@ -27,19 +27,26 @@ It is important to always stop or terminate AWS EC2 instances when you are done 
    * If necessary, use the link which was emailed to you to return to the proper web page.
 * In the **EC2 Console**, click the **Actions** button, then select **Instance State** and then **Stop**.
 
-> Note: permission to **Terminate** instances was disabled for all user accounts of this Developer Lab to prevent accidental terminations.
+Note: permission to **Terminate** instances was disabled for all user accounts of this Developer Lab to prevent accidental terminations.
 
-## Next steps
+<br>
+
+### Congratulations
+You have successfully completed all the modules of SC17 Xilinx Developer Lab!
+
+<br>
+
+### Next steps
 
 To take your AWS F1 and SDAccel experience further, we recommend the following resources:
 
 | Resource | Title                       | Description  |
 | -------- |---------------------------- | ----- |
-| F1 App | **Test-drive Xilinx GoogLeNet / ResNet on AWS F1** | See for yourself how Xilinx can accelerate machine learning image classification on AWS F1. [**Link**](https://www.xilinx.com/applications/megatrends/machine-learning/aws-f1-test-drive.html) |
-| Video  | **Learn more about the SDAccel OpenCL application structure** | This video introduces the host code and kernel elements of an OpenCL application and explains how they map to FPGA accelerators. [**Link**](https://www.xilinx.com/video/hardware/opencl-application-structure.html) |
-| Tutorial | **Get started on F1 with the SDAccel C/OpenCL flow** | This guide takes new users through all the steps required build a first working application on F1. [**Link**]() |
-| Tutorial | **Get started on F1 with the SDAccel RTL flow** | This guide is targeted to developers with prior hardware design experience and legacy RTL designs. [**Link**](https://github.com/Xilinx/SDAccel_Examples/wiki/Getting-Started-on-AWS-F1-with-SDAccel-and-RTL-Kernels) |
-| Examples | **Browse Github examples** | Explore a repository of more than 80 examples to learn more about the SDAccel OpenCL programming model. [**Link**](https://github.com/Xilinx/SDAccel_Examples) |
+| F1 App | **Test-drive Xilinx GoogLeNet / ResNet on AWS F1** | See for yourself how Xilinx can accelerate machine learning image classification on AWS F1. [**Click here**](https://www.xilinx.com/applications/megatrends/machine-learning/aws-f1-test-drive.html) |
+| Video  | **Learn more about the SDAccel OpenCL application structure** | This video introduces the host code and kernel elements of an OpenCL application and explains how they map to FPGA accelerators. [**Click here**](https://www.xilinx.com/video/hardware/opencl-application-structure.html) |
+| Tutorial | **Get started on F1 with the SDAccel C/OpenCL flow** | This guide takes new users through all the steps required build a first working application on F1. [**Click here**]() |
+| Tutorial | **Get started on F1 with the SDAccel RTL flow** | This guide is targeted to developers with prior hardware design experience and legacy RTL designs. [**Click here**](https://github.com/Xilinx/SDAccel_Examples/wiki/Getting-Started-on-AWS-F1-with-SDAccel-and-RTL-Kernels) |
+| Examples | **Browse Github examples** | Explore a repository of more than 80 examples to learn more about the SDAccel OpenCL programming model. [**Click here**](https://github.com/Xilinx/SDAccel_Examples) |
 
 
 
