@@ -5,7 +5,7 @@
     <th width="20%"><a href="SETUP.md">Connecting to your F1 instance</a></th> 
     <th width="20%"><a href="FFMPEG_Lab.md">Experiencing F1 acceleration</a></th>
     <th width="20%"><a href="IDCT_Lab.md">Developing F1 applications</a></th>
-    <th width="20%"><a href="WRAP_UP.md">Wrapping-up the lab</th>
+    <th width="20%"><a href="WRAP_UP.md">Wrapping-up the developer lab</th>
   </tr>
 </table>
 
