@@ -3,13 +3,15 @@
 
 ## Overview
 
-In this module you will experience the acceleration potential of AWS F1 instances by using ```ffmpeg``` to encode 20 seconds of raw YUV 1920x1080 video, first using the libx265 codec and then a HEVC encoder optimized for F1 FPGAs. The HEVC encoder is provided courtesy of [NGCodec](https://ngcodec.com/products-cloud-transcoding/).
+In this module you will experience the acceleration potential of AWS F1 instances by using ```ffmpeg``` to encode 20 seconds of raw YUV 1920x1080 video, first using the libx265 codec and then a HEVC encoder optimized for F1 FPGAs. 
 
 ```ffmpeg``` is a very popular framework providing very fast video and audio converters. The ```ffmpeg``` code is open-source and allows for the addition of custom plugins. For this lab, a custom plugin has been created to transparently use the NGCodec HEVC encoder running on AWS F1.  
 
 ![](images/ffmpeg_lab/ffmpeg_lab.png)
 
 Users can switch between the libx265 software codec and the F1-accelerated implementation by simply changing a parameter on the ```ffmpeg``` command line. The plugin uses OpenCL API calls to write video frames to the FPGA, execute the encoder and read back the compressed video.
+
+The HEVC encoder is provided courtesy of [NGCodec](https://ngcodec.com/products-cloud-transcoding/).
 
 ## Running the lab
 
