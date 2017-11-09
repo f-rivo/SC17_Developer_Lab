@@ -15,7 +15,7 @@
 
 ## Wrap-Up and Next Steps
 
-It is now time the wrap-up this lab. Please now follow these steps to close your RDP session and stop your instance.
+It is now time to wrap-up this lab. Please follow these steps to close your RDP session and stop your instance.
 
 ### Stopping your instance
 
