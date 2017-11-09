@@ -39,15 +39,7 @@ bla bla bla.
 
 ---------------------------------------
 
-[**Start Module 2: Connecting to your F1 instance**](Setup.md)
+<p align="center"><b>
+Start the next module: <a href="SETUP.md">2. Connecting to your F1 instance</a>
+</b></p>
 
-
-<p align="center">
-
-<table>
-  <tr>
-    <td align="center"><a href="SETUP.md"><b>Start Module 2: Connecting to your F1 instance</b></a></td> 
-  </tr>
-</table>
-
-</p>
