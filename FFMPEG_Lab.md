@@ -6,7 +6,7 @@
   <tr>
     <td width="20%" align="center"><a href="README.md">Introduction</a></td>
     <td width="20%" align="center"><a href="SETUP.md">1. Connecting to your F1 instance</a></td> 
-    <td width="20%" align="center"><a href="FFMPEG_Lab.md"><b>2. Experiencing F1 acceleration</b></a></td>
+    <td width="20%" align="center"><b>2. Experiencing F1 acceleration</b></td>
     <td width="20%" align="center"><a href="IDCT_Lab.md">3. Developing F1 applications</a></td>
     <td width="20%" align="center"><a href="WRAP_UP.md">4. Wrapping-up</td>
   </tr>
