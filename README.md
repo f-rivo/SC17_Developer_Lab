@@ -3,11 +3,11 @@
     <th width="100%" colspan="5"><h2>SC17 Xilinx Developer Lab</h2></th>
   </tr>
   <tr>
-    <td width="20%" align="center"><a href="README.md"><b>Introduction</b></a></td>
-    <td width="20%" align="center"><a href="SETUP.md">Connecting to your F1 instance</a></td> 
-    <td width="20%" align="center"><a href="FFMPEG_Lab.md">Experiencing F1 acceleration</a></td>
-    <td width="20%" align="center"><a href="IDCT_Lab.md">Developing F1 applications</a></td>
-    <td width="20%" align="center"><a href="WRAP_UP.md">Wrapping-up</td>
+    <td width="20%" align="center"><a href="README.md"><b>1. Introduction</b></a></td>
+    <td width="20%" align="center"><a href="SETUP.md">2. Connecting to your F1 instance</a></td> 
+    <td width="20%" align="center"><a href="FFMPEG_Lab.md">3. Experiencing F1 acceleration</a></td>
+    <td width="20%" align="center"><a href="IDCT_Lab.md">4. Developing F1 applications</a></td>
+    <td width="20%" align="center"><a href="WRAP_UP.md">5. Wrapping-up</td>
   </tr>
 </table>
 
@@ -39,4 +39,4 @@ bla bla bla.
 
 ---------------------------------------
 
-[**Start Module 1: Connecting to your F1 instance**](Setup.md)
+[**Start Module 2: Connecting to your F1 instance**](Setup.md)
