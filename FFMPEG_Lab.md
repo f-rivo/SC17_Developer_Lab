@@ -40,7 +40,7 @@ The encoder running on the CPU processed the entire video with an average perfor
 The compressed file size is **19.9Mb**
 The operation was **0.358x slower than real time** (it took about 55.6 seconds to encode 20 seconds of video). 
 
-* Preload the HEVC encoder AFI in the FPGA attached to the F1 instance. 
+* Load the HEVC encoder FPGA binary in the F1 instance. 
 ```bash
 fpga-load-local-image -S 0 -I agfi-0015437e933b3e725
 ```
