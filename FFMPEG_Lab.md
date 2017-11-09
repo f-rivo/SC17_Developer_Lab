@@ -1,20 +1,20 @@
 
 <table style="width:100%">
   <tr>
-    <th width="20%"><a href="README.md">Introduction</a></th>
-    <th width="20%"><a href="SETUP.md">Connecting to your F1 instance</a></th> 
-    <th width="20%"><a href="FFMPEG_Lab.md">Experiencing F1 acceleration</a></th>
-    <th width="20%"><a href="IDCT_Lab.md">Developing F1 applications</a></th>
-    <th width="20%"><a href="WRAP_UP.md">Wrapping-up the developer lab</th>
+    <th width="100%" colspan="5"><h2>SC17 Xilinx Developer Lab</h2></th>
+  </tr>
+  <tr>
+    <td width="20%" align="center"><a href="README.md">Introduction</a></td>
+    <td width="20%" align="center"><a href="SETUP.md">Connecting to your F1 instance</a></td> 
+    <td width="20%" align="center"><a href="FFMPEG_Lab.md"><b>Experiencing F1 acceleration</b></a></td>
+    <td width="20%" align="center"><a href="IDCT_Lab.md">Developing F1 applications</a></td>
+    <td width="20%" align="center"><a href="WRAP_UP.md">Wrapping-up</td>
   </tr>
 </table>
 
 ---------------------------------------
 
-
-# Experiencing F1 Acceleration
-
-## Overview
+## Experiencing F1 Acceleration
 
 In this module you will experience the acceleration potential of AWS F1 instances by using ```ffmpeg``` to encode 20 seconds of raw YUV 1920x1080 video, first using the libx265 codec and then a HEVC encoder optimized for F1 FPGAs. 
 
