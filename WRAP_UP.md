@@ -25,8 +25,9 @@ You have completed all the steps of the Xilinx Developer Lab and you can now clo
 
 It is important to always stop or terminate AWS EC2 instances when you are done using them. This is a recommended best practice to avoid unwanted charges.
 
-* On your local machine, return to your browser and the tab with the EC2 Dashboard showing your the details of your instance
-* Click the **Actions** button, select **Instance State** and then **Stop**.
+* On your local machine, return to your browser and to the tab showing the **EC2 Console** and the details of your running instance.
+   * If necessary, use the link which was emailed to you to return to the proper web page.
+* In the **EC2 Console**, click the **Actions** button, then select **Instance State** and then **Stop**.
 
 > Note: permission to **Terminate** instances was disabled for all user accounts of this Developer Lab to prevent accidental terminations.
 
