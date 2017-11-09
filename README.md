@@ -1,13 +1,13 @@
 <table style="width:100%">
   <tr>
-    <th width="100%" colspan="5"><h4>SC17 Xilinx Developer Lab</h4></th>
+    <th width="100%" colspan="5"><h2>SC17 Xilinx Developer Lab</h2></th>
   </tr>
   <tr>
-    <td width="20%"><a href="README.md">Introduction</a></td>
-    <td width="20%"><a href="SETUP.md">Connecting to your F1 instance</a></td> 
-    <td width="20%"><a href="FFMPEG_Lab.md">Experiencing F1 acceleration</a></td>
-    <td width="20%"><a href="IDCT_Lab.md">Developing F1 applications</a></td>
-    <td width="20%"><a href="WRAP_UP.md">Wrapping-up the developer lab</td>
+    <td width="20%" align="center"><a href="README.md">Introduction</a></td>
+    <td width="20%" align="center"><a href="SETUP.md">Connecting to your F1 instance</a></td> 
+    <td width="20%" align="center"><a href="FFMPEG_Lab.md">Experiencing F1 acceleration</a></td>
+    <td width="20%" align="center"><a href="IDCT_Lab.md">Developing F1 applications</a></td>
+    <td width="20%" align="center"><a href="WRAP_UP.md">Wrapping-up the developer lab</td>
   </tr>
 </table>
 
