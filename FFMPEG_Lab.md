@@ -36,8 +36,8 @@ source /opt/Xilinx/SDx/2017.1.rte/setup.sh
 The encoder will finish with a message similar to this one: \
 *frame=500 **fps=9.0** q=-0.0 **Lsize=19933kB** time=00:00:19.92 bitrate=8197.4kbits/s **speed=0.358x*** 
 
-The encoder running on the CPU processed the entire video with an average performance of **9 fps** (frames per second). 
-The compressed file size is **19.9Mb**
+The encoder running on the CPU processed the entire video with an average performance of **9 fps** (frames per second). \
+The compressed file size is **19.9Mb**. \
 The operation was **0.358x slower than real time** (it took about 55.6 seconds to encode 20 seconds of video). 
 
 * Load the HEVC encoder FPGA binary in the F1 instance. 
@@ -53,13 +53,11 @@ fpga-load-local-image -S 0 -I agfi-0015437e933b3e725
 The encoder will finish with a message similar to this one: \
 *frame=500 **fps=52** q=-0.0 LPSNR=Y:inf U:inf V:inf \*:inf **size=17580kB** time=00:00:20.00 bitrate=7200.9kbits/s **speed=2.08x*** 
 
-The encoder running on the F1 FPGA processed the entire video with an average performance of **52 fps** (frames per second). 
-The compressed file size is **17.5Mb**
+The encoder running on the F1 FPGA processed the entire video with an average performance of **52 fps** (frames per second). \
+The compressed file size is **17.5Mb**. \
 The operation was **2.08x faster than real time** (it took about 9.6 seconds to encode 20 seconds of video). 
 
-The HEVC encoder running on F1 processed the same vide **5.7x** faster than the libx265 codec running on the CPU.
-
-The table below summarizes key performance metrics
+The HEVC encoder running on F1 is not only**5.7x** faster than the libx265 codec, but it also provides better compression without sacrificing quality.
 
 |                           | HEVC encoding on CPU | HEVC encoding on F1  |
 | :------------------------ |-------------:| -------:|
@@ -69,7 +67,6 @@ The table below summarizes key performance metrics
 | compressed file size      | 19.9 Mb      | 17.5 Mb |
 
 
-The HEVC encoder running on F1 is not only much faster, but it also provides better compression without sacrificing quality.
 
 
 ## Conclusion
