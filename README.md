@@ -31,4 +31,5 @@ AWS F1 instances are ideal to accelerate complex workloads. In this module you w
 In this module, you will use the SDAccel development environment to create, profile and optimize an F1 accelerator. The lab focuses on the Inverse Discrete Cosine Transform (IDCT), a compute intensive function use at the heart of all video codecs.
 
 ---------------------------------------
-[**Start Module 1: Connecting to your F1 instance**](Setup.md)
+
+<p align="center"><a href="SETUP.md"><b>Start Module 1: Connecting to your F1 instance</b></a></p>
