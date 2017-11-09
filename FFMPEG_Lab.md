@@ -92,4 +92,8 @@ In addition to video transcoding, F1 instances are very well suited to accelerat
 Now that you have experienced the performance potential of AWS F1 instances, the next lab will introduce you to the SDAccel IDE and how to develop, profile and optimize an F1 application.
 
 ---------------------------------------
-[**Start Module 3: Developing and optimizing F1 applications with SDAccel**](IDCT_Lab.md)
+
+<p align="center"><b>
+Start the next module: <a href="IDCT_Lab.md">1. Developing, profiling and optimizing F1 applications with SDAccel</a>
+</b></p>
+
