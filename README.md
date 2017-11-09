@@ -3,11 +3,11 @@
     <th width="100%" colspan="5"><h2>SC17 Xilinx Developer Lab</h2></th>
   </tr>
   <tr>
-    <td width="20%" align="center"><a href="README.md"><b>1. Introduction</b></a></td>
-    <td width="20%" align="center"><a href="SETUP.md">2. Connecting to your F1 instance</a></td> 
-    <td width="20%" align="center"><a href="FFMPEG_Lab.md">3. Experiencing F1 acceleration</a></td>
-    <td width="20%" align="center"><a href="IDCT_Lab.md">4. Developing F1 applications</a></td>
-    <td width="20%" align="center"><a href="WRAP_UP.md">5. Wrapping-up</td>
+    <td width="20%" align="center"><a href="README.md"><b>Introduction</b></a></td>
+    <td width="20%" align="center"><a href="SETUP.md">1. Connecting to your F1 instance</a></td> 
+    <td width="20%" align="center"><a href="FFMPEG_Lab.md">2. Experiencing F1 acceleration</a></td>
+    <td width="20%" align="center"><a href="IDCT_Lab.md">3. Developing F1 applications</a></td>
+    <td width="20%" align="center"><a href="WRAP_UP.md">4. Wrapping-up</td>
   </tr>
 </table>
 
@@ -34,12 +34,12 @@ You will start a pre-configured EC2 F1 instance and connect to it using a remote
 AWS F1 instances are ideal to accelerate complex workloads. In this module you will experience the potential of F1 by using FFmpeg to run both a software implementation and an F1-optimized implementation of an H.265/HEVC encoder. 
 1. **Developing and optimizing F1 applications with SDAccel** \
 You will use the SDAccel development environment to create, profile and optimize an F1 accelerator. The lab focuses on the Inverse Discrete Cosine Transform (IDCT), a compute intensive function used at the heart of all video codecs.
-1. **Wrap-up and stopping your F1 instance** \
-bla bla bla.
+1. **Wrap-up and next steps** \
+You will to close your RDP session, stop your F1 instance and explore next steps to continue your F1 experience after the Xilinx Developer Lab.
 
 ---------------------------------------
 
 <p align="center"><b>
-Start the next module: <a href="SETUP.md">2. Connecting to your F1 instance</a>
+Start the next module: <a href="SETUP.md">1. Connecting to your F1 instance</a>
 </b></p>
 
