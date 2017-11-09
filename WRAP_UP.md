@@ -27,12 +27,8 @@ It is now time to wrap-up this lab. Please follow these steps to close your RDP 
 
 Note: permission to **Terminate** instances was disabled for all user accounts of this Developer Lab to prevent accidental terminations.
 
-<br>
-
 ### Congratulations!
 You have successfully completed all the modules of SC17 Xilinx Developer Lab. Thank you for your participation.
-
-<br>
 
 ### Next steps
 
