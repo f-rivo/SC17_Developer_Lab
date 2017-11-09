@@ -13,15 +13,13 @@
 
 ---------------------------------------
 
-## Wrap-up and Next Steps
+## Wrap-Up and Next Steps
 
-#### Close your RDP session
+You have successfully completed the SC17 Xilinx Developer Lab. Congratulations!
 
-You have completed all the steps of the Xilinx Developer Lab and you can now close the RDP session.
+Please now follow these steps to close your RDP session and stop your instance.
 
 * Click the 'X' icon in your RDP client window.
-
-#### Stop your F1 instance
 
 It is important to always stop or terminate AWS EC2 instances when you are done using them. This is a recommended best practice to avoid unwanted charges.
 
@@ -31,10 +29,7 @@ It is important to always stop or terminate AWS EC2 instances when you are done 
 
 > Note: permission to **Terminate** instances was disabled for all user accounts of this Developer Lab to prevent accidental terminations.
 
-You have successfully completed the SC17 Xilinx Developer Lab. Congratulations!
-
-
-#### Next steps
+## Next steps
 
 To take your AWS F1 and SDAccel experience further, we recommend the following resources:
 
