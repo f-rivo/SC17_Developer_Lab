@@ -1,7 +1,7 @@
 
 <table style="width:100%">
   <tr>
-    <th width="20%" background-color="red"><a href="README.md">Introduction</a></th>
+    <th width="20%"><a href="README.md">Introduction</a></th>
     <th width="20%"><a href="Setup.md">1. Connecting to your F1 instance</a></th> 
     <th width="20%"><a href="IDCT_Lab.md">2. Experiencing F1 acceleration</a></th>
     <th width="20%"><a href="FFMPEG_Lab.md">3. Developing F1 applications</a></th>
