@@ -11,7 +11,7 @@ In this module you will experience the acceleration potential of AWS F1 instance
 
 Users can switch between the libx265 software codec and the F1-accelerated implementation by simply changing a parameter on the ```ffmpeg``` command line. The plugin uses OpenCL API calls to write video frames to the FPGA, execute the encoder and read back the compressed video.
 
-The HEVC encoder is provided courtesy of [NGCodec](https://ngcodec.com/products-cloud-transcoding/).
+The HEVC encoder is provided courtesy of **NGCodec** [(www.ngcodec.com)](www.ngcodec.com).
 
 ## Running the lab
 
@@ -53,7 +53,9 @@ fpga-load-local-image -S 0 -I agfi-0015437e933b3e725
 The encoder will finish with a message similar to this one: \
 *frame=500 **fps=52** q=-0.0 LPSNR=Y:inf U:inf V:inf \*:inf **size=17580kB** time=00:00:20.00 bitrate=7200.9kbits/s **speed=2.08x*** 
 
-* The table below summarizes the performance of both the encoders:
+<br>
+
+* The table below summarizes the performance of both encoders:
 
 |                           | HEVC encoding on CPU | HEVC encoding on F1  |
 | :------------------------ |-------------:| -------:|
@@ -66,7 +68,7 @@ The encoder will finish with a message similar to this one: \
 
 ## Conclusion
 
-The HEVC encoder running on F1 is **5.7x** faster than the libx265 codec, and it also provides better compression without sacrificing quality.
+The HEVC encoder running on F1 is **5.7x** faster than the libx265 codec running on the CPU. It also provides better compression without sacrificing quality.
 
 Multiple instances of the NGCodec encoder could be loaded in the FPGA, allowing parallel processing of multiple video streams and easily delivering more than a 10x increase in performance/$ over a CPU-based solution. 
 
