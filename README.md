@@ -7,7 +7,7 @@
     <td width="20%" align="center"><a href="SETUP.md">Connecting to your F1 instance</a></td> 
     <td width="20%" align="center"><a href="FFMPEG_Lab.md">Experiencing F1 acceleration</a></td>
     <td width="20%" align="center"><a href="IDCT_Lab.md">Developing F1 applications</a></td>
-    <td width="20%" align="center"><a href="WRAP_UP.md">Wrapping-up the developer lab</td>
+    <td width="20%" align="center"><a href="WRAP_UP.md">Wrapping-up</td>
   </tr>
 </table>
 
