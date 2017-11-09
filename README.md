@@ -32,4 +32,4 @@ In this module, you will use the SDAccel development environment to create, prof
 
 ---------------------------------------
 
-<p align="center"><a href="SETUP.md"><b>Start Module 1: Connecting to your F1 instance</b></a></p>
+[**Start Module 1: Connecting to your F1 instance**](Setup.md)
