@@ -36,8 +36,7 @@ source /opt/Xilinx/SDx/2017.1.rte/setup.sh
 The encoder will finish with a message similar to this one: \
 *frame=500 **fps=9.0** q=-0.0 **Lsize=19933kB** time=00:00:19.92 bitrate=8197.4kbits/s **speed=0.358x*** 
 
-> NOTE: \
-**fps** measures the performance of the encoder measured in processed frames per second. \
+> **fps** measures the performance of the encoder measured in processed frames per second. \
 **size** measures the size the compressed output file. \
 **speed** measures the ratio of video time to encoding time.
  
@@ -59,7 +58,7 @@ The encoder will finish with a message similar to this one: \
 |                           | HEVC encoding on CPU | HEVC encoding on F1  |
 | :------------------------ |-------------:| -------:|
 | performance               | 9 fps        | 52 fps  |
-| speed vs real-time        | 0.358x       | 2.08x   |
+| speed vs real-time        | 0.358 x      | 2.08 x  |
 | duration                  | 55.6 sec     | 9.6 sec |
 | compressed file size      | 19.9 Mb      | 17.5 Mb |
 
