@@ -7,25 +7,23 @@ In this module you will experience the acceleration potential of AWS F1 instance
 
 ```ffmpeg``` is a very popular framework providing very fast video and audio converters. The ```ffmpeg``` code is open-source and allows for the addition of custom plugins. For this lab, a custom plugin has been created to transparently use the NGCodec HEVC encoder running on AWS F1. Users can switch between the libx265 software codec and the F1-accelerated implementation by simply changing a parameter on the ```ffmpeg``` command line. The plugin uses OpenCL API calls to write video frames to the FPGA, execute the encoder and read back the compressed video. 
 
-![](images/ffmpeg_lab/ffmpeg_lab.png)
-
 ## Running the lab
 
 * Open a new terminal by right-clicking anywhere in the Desktop area and selecting **Open Terminal**.
 * Navigate to the FFmpeg lab directory.
-```
+```bash
 cd ~/SC17_Developer_Lab/ffmpeg
 ```
 
 * Source the FFmpeg and SDAccel runtime environments.
-```
+```bash
 sudo sh
 source ./ffsetup.sh
 source /opt/Xilinx/SDx/2017.1.rte/setup.sh
 ```
 
 * Encode using the libx265 software codec running on the CPU.
-```
+```bash
 ./ffmpeg -f rawvideo -pix_fmt yuv420p -s:v 1920x1080 -i /home/centos/vectors/crowd8_420_1920x1080_50.yuv -an -frames 1000 -c:v libx265 -preset medium -g 30 -q 40 -f hevc -y ./crowd8_420_1920x1080_50_libx265_out0_qp40.hevc
 ```
 
@@ -37,12 +35,12 @@ The compressed file size is **19.9Mb**
 The operation was **0.358x slower than real time** (it took about 55.6 seconds to encode 20 seconds of video). 
 
 * Preload the HEVC encoder AFI in the FPGA attached to the F1 instance. 
-```
+```bash
 fpga-load-local-image -S 0 -I agfi-0015437e933b3e725
 ```
 
 * Encode using the NGCodec HEVC encoder running on the F1 FPGA.
-```
+```bash
 ./ffmpeg -f rawvideo -pix_fmt yuv420p -s:v 1920x1080 -i /home/centos/vectors/crowd8_420_1920x1080_50.yuv -an -frames 1000 -c:v xlnx_hevc_enc -psnr -g 30 -global_quality 40 -f hevc -y ./crowd8_420_1920x1080_50_NGcodec_out0_g30_gq40.hevc 
 ```
 
