@@ -31,8 +31,8 @@ Note: permission to **Terminate** instances was disabled for all user accounts o
 
 <br>
 
-### Congratulations
-You have successfully completed all the modules of SC17 Xilinx Developer Lab!
+### Congratulations!
+You have successfully completed all the modules of SC17 Xilinx Developer Lab. Thank you for your participation.
 
 <br>
 
